@@ -1,0 +1,112 @@
+\hypertarget{classGamePage}{}\doxysection{Game\+Page Class Reference}
+\label{classGamePage}\index{GamePage@{GamePage}}
+
+
+Class representing the game page in a GUI application.  
+
+
+
+
+{\ttfamily \#include $<$gamepage.\+h$>$}
+
+
+
+Inheritance diagram for Game\+Page\+:
+% FIG 0
+
+
+Collaboration diagram for Game\+Page\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classGamePage_a88a46cdec092793dc2ef355be3b083da}{start\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Slot to start the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGamePage_acafa1570b434ac629c1423f19295db64}{Game\+Page}} (const QSize \&size, QWidget $\ast$parent)
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{classGamePage}{Game\+Page}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGamePage_a88a46cdec092793dc2ef355be3b083da}{start\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Slot to handle the start of the game. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGamePage_a08ad8d311b6fa28a9fa15af65d7cba97}{Game\+Page}} (const QSize \&size, QWidget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classGamePage}{Game\+Page}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing the game page in a GUI application. 
+
+Class representing the main game page in a GUI application.
+
+\mbox{\hyperlink{classGamePage}{Game\+Page}} sets up the main interface for the game, including a display of instructions and a play button.
+
+The \mbox{\hyperlink{classGamePage}{Game\+Page}} class extends the QWidget class and is responsible for displaying the main interface of the game, including any interactive elements such as buttons and display elements like instructions. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGamePage_acafa1570b434ac629c1423f19295db64}\label{classGamePage_acafa1570b434ac629c1423f19295db64}} 
+\index{GamePage@{GamePage}!GamePage@{GamePage}}
+\index{GamePage@{GamePage}!GamePage@{GamePage}}
+\doxysubsubsection{\texorpdfstring{GamePage()}{GamePage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Game\+Page\+::\+Game\+Page (\begin{DoxyParamCaption}\item[{const QSize \&}]{size,  }\item[{QWidget $\ast$}]{parent }\end{DoxyParamCaption})}
+
+
+
+Constructor for \mbox{\hyperlink{classGamePage}{Game\+Page}}. 
+
+Sets up the UI components of the game page, including layout, instructions label, and play button.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & Size of the game page. \\
+\hline
+{\em parent} & Pointer to the parent widget. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGamePage_a08ad8d311b6fa28a9fa15af65d7cba97}\label{classGamePage_a08ad8d311b6fa28a9fa15af65d7cba97}} 
+\index{GamePage@{GamePage}!GamePage@{GamePage}}
+\index{GamePage@{GamePage}!GamePage@{GamePage}}
+\doxysubsubsection{\texorpdfstring{GamePage()}{GamePage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Game\+Page\+::\+Game\+Page (\begin{DoxyParamCaption}\item[{const QSize \&}]{size,  }\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructor for the \mbox{\hyperlink{classGamePage}{Game\+Page}} class. 
+
+Initializes a new instance of the \mbox{\hyperlink{classGamePage}{Game\+Page}} class with a specified size and parent.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & The size of the game page. \\
+\hline
+{\em parent} & The parent widget, defaulting to nullptr if not specified. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGamePage_a88a46cdec092793dc2ef355be3b083da}\label{classGamePage_a88a46cdec092793dc2ef355be3b083da}} 
+\index{GamePage@{GamePage}!startGame@{startGame}}
+\index{startGame@{startGame}!GamePage@{GamePage}}
+\doxysubsubsection{\texorpdfstring{startGame()}{startGame()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Game\+Page\+::start\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Slot to handle the start of the game. 
+
+This function is called when the play button is clicked. It handles the transition to the play page. \mbox{\Hypertarget{classGamePage_a88a46cdec092793dc2ef355be3b083da}\label{classGamePage_a88a46cdec092793dc2ef355be3b083da}} 
+\index{GamePage@{GamePage}!startGame@{startGame}}
+\index{startGame@{startGame}!GamePage@{GamePage}}
+\doxysubsubsection{\texorpdfstring{startGame}{startGame}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Game\+Page\+::start\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot to start the game. 
+
+This slot is triggered to initiate the start of the game, typically connected to a signal from a start button or similar interactive element. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+gamepage.\+cpp\item 
+\mbox{\hyperlink{gamepage_8h}{gamepage.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+5696e7ab8622c70387aeec260fb94182 CMakeFiles/Whac-A-Mole_autogen

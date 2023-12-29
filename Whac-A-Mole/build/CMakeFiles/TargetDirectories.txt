@@ -1,0 +1,8 @@
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/install/strip.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/install.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/list_install_components.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/install/local.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/rebuild_cache.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/edit_cache.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/Whac-A-Mole.dir
+/home/rasberrypi/Desktop/group7/Whac-A-Mole/build/CMakeFiles/Whac-A-Mole_autogen.dir

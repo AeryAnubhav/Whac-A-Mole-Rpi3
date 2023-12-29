@@ -1,0 +1,108 @@
+\hypertarget{classScoresPage}{}\doxysection{Scores\+Page Class Reference}
+\label{classScoresPage}\index{ScoresPage@{ScoresPage}}
+
+
+Class responsible for displaying high scores in the application.  
+
+
+
+
+{\ttfamily \#include $<$scorespage.\+h$>$}
+
+
+
+Inheritance diagram for Scores\+Page\+:
+% FIG 0
+
+
+Collaboration diagram for Scores\+Page\+:
+% FIG 1
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classScoresPage_af1d508834be892818c9e8b52539caf27}{return\+To\+Main\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Signal to indicate a return to the main menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classScoresPage_ac146454327fb8bc327676f3b0f3b599d}{Scores\+Page}} (const QSize \&size, QWidget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classScoresPage}{Scores\+Page}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScoresPage_adf8237f5324973362cbca5a1876d7a24}{update\+High\+Scores}} (QList\+Widget $\ast$scores\+List\+Widget)
+\begin{DoxyCompactList}\small\item\em Function to update the high scores displayed on the page. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class responsible for displaying high scores in the application. 
+
+Class representing the high scores page in the GUI application.
+
+This class sets up and displays a page showing high scores. It includes a QLabel for the title, a QList\+Widget for listing scores, and a QPush\+Button to return to the main menu. \begin{DoxyAuthor}{Author}
+Yangxiuye Gu
+\end{DoxyAuthor}
+The \mbox{\hyperlink{classScoresPage}{Scores\+Page}} class is responsible for displaying high scores in a list format. It includes a return button to navigate back to the main menu. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classScoresPage_ac146454327fb8bc327676f3b0f3b599d}\label{classScoresPage_ac146454327fb8bc327676f3b0f3b599d}} 
+\index{ScoresPage@{ScoresPage}!ScoresPage@{ScoresPage}}
+\index{ScoresPage@{ScoresPage}!ScoresPage@{ScoresPage}}
+\doxysubsubsection{\texorpdfstring{ScoresPage()}{ScoresPage()}}
+{\footnotesize\ttfamily Scores\+Page\+::\+Scores\+Page (\begin{DoxyParamCaption}\item[{const QSize \&}]{size,  }\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructs a \mbox{\hyperlink{classScoresPage}{Scores\+Page}} object. 
+
+Initializes a new instance of the \mbox{\hyperlink{classScoresPage}{Scores\+Page}} class with a specified size and parent widget. Sets up the UI elements required for the scores page.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & The size of the widget. \\
+\hline
+{\em parent} & The parent QWidget, defaulting to nullptr if not specified. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classScoresPage_af1d508834be892818c9e8b52539caf27}\label{classScoresPage_af1d508834be892818c9e8b52539caf27}} 
+\index{ScoresPage@{ScoresPage}!returnToMainMenu@{returnToMainMenu}}
+\index{returnToMainMenu@{returnToMainMenu}!ScoresPage@{ScoresPage}}
+\doxysubsubsection{\texorpdfstring{returnToMainMenu}{returnToMainMenu}}
+{\footnotesize\ttfamily void Scores\+Page\+::return\+To\+Main\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Signal to indicate a return to the main menu. 
+
+Emitted when the user interacts with the return button. \mbox{\Hypertarget{classScoresPage_adf8237f5324973362cbca5a1876d7a24}\label{classScoresPage_adf8237f5324973362cbca5a1876d7a24}} 
+\index{ScoresPage@{ScoresPage}!updateHighScores@{updateHighScores}}
+\index{updateHighScores@{updateHighScores}!ScoresPage@{ScoresPage}}
+\doxysubsubsection{\texorpdfstring{updateHighScores()}{updateHighScores()}}
+{\footnotesize\ttfamily void Scores\+Page\+::update\+High\+Scores (\begin{DoxyParamCaption}\item[{QList\+Widget $\ast$}]{scores\+List\+Widget }\end{DoxyParamCaption})}
+
+
+
+Function to update the high scores displayed on the page. 
+
+Updates the list widget with high scores.
+
+Updates the QList\+Widget with the latest high scores.
+
+
+\begin{DoxyParams}{Parameters}
+{\em scores\+List\+Widget} & Pointer to the QList\+Widget that displays the scores.\\
+\hline
+\end{DoxyParams}
+Retrieves high scores from the High\+Score class and populates the QList\+Widget with these scores.
+
+
+\begin{DoxyParams}{Parameters}
+{\em scores\+List\+Widget} & Pointer to the QList\+Widget that displays the scores. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+scorespage.\+h\item 
+scorespage.\+cpp\end{DoxyCompactItemize}

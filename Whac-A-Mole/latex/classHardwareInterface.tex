@@ -1,0 +1,198 @@
+\hypertarget{classHardwareInterface}{}\doxysection{Hardware\+Interface Class Reference}
+\label{classHardwareInterface}\index{HardwareInterface@{HardwareInterface}}
+
+
+Manages the hardware interactions in a game application.  
+
+
+
+
+{\ttfamily \#include $<$Hardware\+Interface.\+h$>$}
+
+
+
+Inheritance diagram for Hardware\+Interface\+:
+% FIG 0
+
+
+Collaboration diagram for Hardware\+Interface\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classHardwareInterface_a250a3b814ec1c2eff52c437bcfa8e766}{start\+Game}} (const QString \&player\+Name)
+\begin{DoxyCompactList}\small\item\em Slot to start the game with a given player name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHardwareInterface_a88cd0d8a3016ea4c6247bf54b74a7f88}{stop\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Slot to stop the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classHardwareInterface_af8c9d57f5f7c0f15e5f42b1ab36def40}{score\+Updated}} (int new\+Score)
+\begin{DoxyCompactList}\small\item\em Signal emitted when the score is updated. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHardwareInterface_a79ceec00056ebc17bcba94257e33ebd3}\label{classHardwareInterface_a79ceec00056ebc17bcba94257e33ebd3}} 
+void \mbox{\hyperlink{classHardwareInterface_a79ceec00056ebc17bcba94257e33ebd3}{game\+Started}} ()
+\begin{DoxyCompactList}\small\item\em Signal emitted when the game starts. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHardwareInterface_a93c9472d9e0eb770b009a6f750886b48}\label{classHardwareInterface_a93c9472d9e0eb770b009a6f750886b48}} 
+void \mbox{\hyperlink{classHardwareInterface_a93c9472d9e0eb770b009a6f750886b48}{game\+Ended}} ()
+\begin{DoxyCompactList}\small\item\em Signal emitted when the game ends. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHardwareInterface_a90f8272393069672ade76c8234c3c541}{countdown\+Updated}} (int time\+Left)
+\begin{DoxyCompactList}\small\item\em Signal emitted to update the countdown timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHardwareInterface_abd8392953709fe425a2d0b86d2e9ebc0}{Hardware\+Interface}} (QObject $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHardwareInterface_ace7c2df9df6eab7e6d4239070585aefc}{$\sim$\+Hardware\+Interface}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHardwareInterface_a12a4c165f67b8d800fa6c0e8abbe521c}{handle\+Game}} (const QString \&player\+Name)
+\begin{DoxyCompactList}\small\item\em Handles the overall game logic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages the hardware interactions in a game application. 
+
+Manages the interface between the game logic and the hardware components.
+
+The \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}} class is responsible for interfacing with the game hardware. It includes methods for starting and stopping the game, handling the game logic, and managing game-\/related events and signals. \begin{DoxyAuthor}{Author}
+Anubhav Aery
+\end{DoxyAuthor}
+This class encapsulates the interaction with the game hardware, including the game controller, player data, and high score management. It offers functionality to start and stop the game, handle the game\textquotesingle{}s logic, and emit relevant signals during the game\textquotesingle{}s lifecycle. \begin{DoxyAuthor}{Author}
+Anubhav Aery 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHardwareInterface_abd8392953709fe425a2d0b86d2e9ebc0}\label{classHardwareInterface_abd8392953709fe425a2d0b86d2e9ebc0}} 
+\index{HardwareInterface@{HardwareInterface}!HardwareInterface@{HardwareInterface}}
+\index{HardwareInterface@{HardwareInterface}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{HardwareInterface()}{HardwareInterface()}}
+{\footnotesize\ttfamily Hardware\+Interface\+::\+Hardware\+Interface (\begin{DoxyParamCaption}\item[{QObject $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructs a \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}} object. 
+
+Initializes a new instance of the \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}} with a parent QObject.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The parent QObject, defaulting to nullptr if not specified. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHardwareInterface_ace7c2df9df6eab7e6d4239070585aefc}\label{classHardwareInterface_ace7c2df9df6eab7e6d4239070585aefc}} 
+\index{HardwareInterface@{HardwareInterface}!````~HardwareInterface@{$\sim$HardwareInterface}}
+\index{````~HardwareInterface@{$\sim$HardwareInterface}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{$\sim$HardwareInterface()}{~HardwareInterface()}}
+{\footnotesize\ttfamily Hardware\+Interface\+::$\sim$\+Hardware\+Interface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor for \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}}. 
+
+Cleans up resources used by the \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}} instance.
+
+Responsible for cleaning up resources used by the \mbox{\hyperlink{classHardwareInterface}{Hardware\+Interface}} instance. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHardwareInterface_a90f8272393069672ade76c8234c3c541}\label{classHardwareInterface_a90f8272393069672ade76c8234c3c541}} 
+\index{HardwareInterface@{HardwareInterface}!countdownUpdated@{countdownUpdated}}
+\index{countdownUpdated@{countdownUpdated}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{countdownUpdated}{countdownUpdated}}
+{\footnotesize\ttfamily void Hardware\+Interface\+::countdown\+Updated (\begin{DoxyParamCaption}\item[{int}]{time\+Left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Signal emitted to update the countdown timer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time\+Left} & The time left in the countdown as an integer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHardwareInterface_a12a4c165f67b8d800fa6c0e8abbe521c}\label{classHardwareInterface_a12a4c165f67b8d800fa6c0e8abbe521c}} 
+\index{HardwareInterface@{HardwareInterface}!handleGame@{handleGame}}
+\index{handleGame@{handleGame}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{handleGame()}{handleGame()}}
+{\footnotesize\ttfamily void Hardware\+Interface\+::handle\+Game (\begin{DoxyParamCaption}\item[{const QString \&}]{player\+Name }\end{DoxyParamCaption})}
+
+
+
+Handles the overall game logic. 
+
+Handles the game logic in a separate thread.
+
+This method is responsible for setting up and managing the game logic, including starting and stopping the game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Name} & The name of the player as a QString.\\
+\hline
+\end{DoxyParams}
+This method sets up a new thread for running the game logic. It manages the starting and stopping of the game and the interaction between the game controller and other components.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Name} & The name of the player as a QString. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHardwareInterface_af8c9d57f5f7c0f15e5f42b1ab36def40}\label{classHardwareInterface_af8c9d57f5f7c0f15e5f42b1ab36def40}} 
+\index{HardwareInterface@{HardwareInterface}!scoreUpdated@{scoreUpdated}}
+\index{scoreUpdated@{scoreUpdated}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{scoreUpdated}{scoreUpdated}}
+{\footnotesize\ttfamily void Hardware\+Interface\+::score\+Updated (\begin{DoxyParamCaption}\item[{int}]{new\+Score }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Signal emitted when the score is updated. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Score} & The updated score as an integer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHardwareInterface_a250a3b814ec1c2eff52c437bcfa8e766}\label{classHardwareInterface_a250a3b814ec1c2eff52c437bcfa8e766}} 
+\index{HardwareInterface@{HardwareInterface}!startGame@{startGame}}
+\index{startGame@{startGame}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{startGame}{startGame}}
+{\footnotesize\ttfamily void Hardware\+Interface\+::start\+Game (\begin{DoxyParamCaption}\item[{const QString \&}]{player\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot to start the game with a given player name. 
+
+Starts the game with a given player name.
+
+This slot sets up the game environment, initializes the game controller, and starts the game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Name} & The name of the player as a QString.\\
+\hline
+\end{DoxyParams}
+Sets up the game environment, initializes the game controller, starts the game timer, and emits a signal indicating the game has started.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Name} & The name of the player as a QString. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHardwareInterface_a88cd0d8a3016ea4c6247bf54b74a7f88}\label{classHardwareInterface_a88cd0d8a3016ea4c6247bf54b74a7f88}} 
+\index{HardwareInterface@{HardwareInterface}!stopGame@{stopGame}}
+\index{stopGame@{stopGame}!HardwareInterface@{HardwareInterface}}
+\doxysubsubsection{\texorpdfstring{stopGame}{stopGame}}
+{\footnotesize\ttfamily void Hardware\+Interface\+::stop\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot to stop the game. 
+
+Stops the game.
+
+This slot is responsible for ending the game and handling any necessary cleanup.
+
+Ends the game, calculates the final score, and emits a signal indicating the game has ended. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Hardware\+Interface.\+h\item 
+Hardware\+Interface.\+cpp\end{DoxyCompactItemize}

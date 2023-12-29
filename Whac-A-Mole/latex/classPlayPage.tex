@@ -1,0 +1,92 @@
+\hypertarget{classPlayPage}{}\doxysection{Play\+Page Class Reference}
+\label{classPlayPage}\index{PlayPage@{PlayPage}}
+
+
+The \mbox{\hyperlink{classPlayPage}{Play\+Page}} class for displaying the game interface.  
+
+
+
+
+{\ttfamily \#include $<$playpage.\+h$>$}
+
+
+
+Inheritance diagram for Play\+Page\+:
+% FIG 0
+
+
+Collaboration diagram for Play\+Page\+:
+% FIG 1
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classPlayPage_a6adb0a9464beca284bf83be027f942de}{return\+To\+Main\+Window\+Requested}} ()
+\begin{DoxyCompactList}\small\item\em Signal to return to the main window. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPlayPage_a7f80a322ddb0387b622f5fbb8f5cd0ff}{Play\+Page}} (const QSize \&size, QWidget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classPlayPage}{Play\+Page}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPlayPage_ac23f4e42a5420783342c446e69d3849f}{$\sim$\+Play\+Page}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classPlayPage}{Play\+Page}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classPlayPage}{Play\+Page}} class for displaying the game interface. 
+
+This class is responsible for setting up and displaying the game play interface. It includes player name input, start button, welcome label, countdown, and score display. \begin{DoxyAuthor}{Author}
+Yangxiuye Gu
+\end{DoxyAuthor}
+This class is responsible for setting up and displaying the game play interface in a GUI application. It includes various UI elements like buttons and labels to interact with the user and display game information. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPlayPage_a7f80a322ddb0387b622f5fbb8f5cd0ff}\label{classPlayPage_a7f80a322ddb0387b622f5fbb8f5cd0ff}} 
+\index{PlayPage@{PlayPage}!PlayPage@{PlayPage}}
+\index{PlayPage@{PlayPage}!PlayPage@{PlayPage}}
+\doxysubsubsection{\texorpdfstring{PlayPage()}{PlayPage()}}
+{\footnotesize\ttfamily Play\+Page\+::\+Play\+Page (\begin{DoxyParamCaption}\item[{const QSize \&}]{size,  }\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructs a \mbox{\hyperlink{classPlayPage}{Play\+Page}} object. 
+
+Initializes a new instance of the \mbox{\hyperlink{classPlayPage}{Play\+Page}} class with a specified size and parent widget. Sets up the UI elements required for the game play page.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & The size of the widget. \\
+\hline
+{\em parent} & The parent QWidget, defaulting to nullptr if not specified. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayPage_ac23f4e42a5420783342c446e69d3849f}\label{classPlayPage_ac23f4e42a5420783342c446e69d3849f}} 
+\index{PlayPage@{PlayPage}!````~PlayPage@{$\sim$PlayPage}}
+\index{````~PlayPage@{$\sim$PlayPage}!PlayPage@{PlayPage}}
+\doxysubsubsection{\texorpdfstring{$\sim$PlayPage()}{~PlayPage()}}
+{\footnotesize\ttfamily Play\+Page\+::$\sim$\+Play\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor for \mbox{\hyperlink{classPlayPage}{Play\+Page}}. 
+
+Cleans up resources used by the \mbox{\hyperlink{classPlayPage}{Play\+Page}} instance, like UI elements and hardware interface.
+
+Cleans up resources used by the \mbox{\hyperlink{classPlayPage}{Play\+Page}} instance. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPlayPage_a6adb0a9464beca284bf83be027f942de}\label{classPlayPage_a6adb0a9464beca284bf83be027f942de}} 
+\index{PlayPage@{PlayPage}!returnToMainWindowRequested@{returnToMainWindowRequested}}
+\index{returnToMainWindowRequested@{returnToMainWindowRequested}!PlayPage@{PlayPage}}
+\doxysubsubsection{\texorpdfstring{returnToMainWindowRequested}{returnToMainWindowRequested}}
+{\footnotesize\ttfamily void Play\+Page\+::return\+To\+Main\+Window\+Requested (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Signal to return to the main window. 
+
+Emitted when the user requests to return to the main window from the game page. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+playpage.\+h\item 
+playpage.\+cpp\end{DoxyCompactItemize}
