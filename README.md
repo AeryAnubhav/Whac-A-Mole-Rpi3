@@ -1,4 +1,4 @@
-README.txt
+![image](https://github.com/AeryAnubhav/Whac-A-Mole-Rpi3/assets/44428518/e6108472-94b3-43d1-9cf1-bb102ea80d97)README.txt
 
 # Whack-a-LED Game
 
@@ -49,10 +49,12 @@ Your Raspberry Pi needs to be connected to a matrix of LEDs. Here's how to set u
 
 Refer to the Raspberry Pi GPIO pinout diagram to identify the GPIO pins. For the game, we are using the following pins:
 
-   GPIO 15, GPIO 24, GPIO 8, GPIO 20, 
-   GPIO 14, GPIO 23, GPIO 7, GPIO 21,
-   GPIO  3, GPIO 17, GPIO 5, GPIO 19, 
-   GPIO  2, GPIO 27, GPIO 6, GPIO 26
+   GPIO 15, GPIO 24, GPIO 8, GPIO 20,  
+   GPIO 14, GPIO 23, GPIO 7, GPIO 21,  
+   GPIO  3, GPIO 17, GPIO 5, GPIO 19,  
+   GPIO  2, GPIO 27, GPIO 6, GPIO 26  
+
+![Setup](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/setup.png)
 
 Each GPIO pin corresponds to a button press as defined in the 'keyToLedMap' within the game code.
 
