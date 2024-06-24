@@ -1,5 +1,3 @@
-![image](https://github.com/AeryAnubhav/Whac-A-Mole-Rpi3/assets/44428518/e6108472-94b3-43d1-9cf1-bb102ea80d97)README.txt
-
 # Whack-a-LED Game
 
 
@@ -64,9 +62,15 @@ Once you have set up the hardware, you can proceed to compile and run the game a
 
 Enjoy the game!
 
+## DEMO
+[![Whac-A-Mole Game Demo](https://img.youtube.com/vi/l_eRHazTSjg/0.jpg)](https://youtu.be/l_eRHazTSjg?start=225&end=316)
+
 ## Screenshots of the UI
 ![Main Menu](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img1.png)
 ![High Scores](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img2.png)
 ![Instructions](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img3.png)
 ![Game Start](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img4.png)
 ![Game End](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img5.png)
+
+
+##
