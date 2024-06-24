@@ -1,10 +1,9 @@
 README.txt
 
-Whack-a-LED Game
+# Whack-a-LED Game
 
-==================
-Compilation Guide
-==================
+
+## Compilation Guide
 
 To compile the Whack-a-LED game on your Raspberry Pi, follow these steps:
 
@@ -28,9 +27,8 @@ Make sure you have the pigpio library and ncurses installed on your Raspberry Pi
    sudo apt-get install cmake G++
    sudo apt-get install qtbase5-dev qt5-qmake qtbase5-dev-tools
 
-================
-Running the Game
-================
+
+## Running the Game
 
 To run the game, use the following command in the terminal window:
 
@@ -38,9 +36,9 @@ To run the game, use the following command in the terminal window:
 
 The 'sudo' command is necessary because the pigpio library requires root privileges to access the GPIO pins.
 
-======================
-Raspberry Pi Setup Guide
-======================
+
+## Raspberry Pi Setup Guide
+
 
 Hardware Setup:
 
@@ -64,7 +62,7 @@ Once you have set up the hardware, you can proceed to compile and run the game a
 
 Enjoy the game!
 
-Screenshots of the UI
+## Screenshots of the UI
 ![Main Menu](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img1.png)
 ![High Scores](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img2.png)
 ![Instructions](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img3.png)
