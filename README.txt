@@ -64,3 +64,9 @@ Once you have set up the hardware, you can proceed to compile and run the game a
 
 Enjoy the game!
 
+Screenshots of the UI
+![Main Menu](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img1.png)
+![High Scores](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img2.png)
+![Instructions](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img3.png)
+![Game Start](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img4.png)
+![Game End](https://raw.githubusercontent.com/AeryAnubhav/Whac-A-Mole-Rpi3/master/img5.png)
